@@ -1,0 +1,16 @@
+Prolog（Programming in Logic的縮寫）是一種邏輯編程語言。它建立在邏輯學的理論基礎之上， 最初被運用於自然語言等研究領域。現在它已廣泛的應用在人工智慧的研究中，它可以用來建造專家系統、自然語言理解、智慧型知識庫等。
+Prolog語言最早由Aix-Marseille大學的Alain Colmerauer與Phillipe Roussel等人於60年代末研究開發。1972年被公認為是Prolog語言正式誕生的年份，自1972年以後，分支出多種Prolog的方言。最主要的兩種方言為Edinburgh和Aix-Marseille。最早的Prolog直譯器由Roussel建造，而第一個Prolog編譯器則是David Warren編寫的。
+Prolog一直在北美和歐洲被廣泛使用。日本政府曾經為了建造智慧型電腦而用Prolog來開發ICOT第五代電腦系統。在早期的機器智慧型研究領域，Prolog曾經是主要的開發工具。
+80年代Borland開發的Turbo Prolog，進一步普及了Prolog的使用。1995年確定了ISO Prolog標準。
+有別於一般的函數式語言，prolog的程式是基於謂詞邏輯的理論。最基本的寫法是定義物件與物件之間的關係，之後可以用詢問目標的方式來查詢各種物件之間的關係。系統會自動進行匹配及回溯，找出所詢問的答案。
+Prolog代碼中以大寫字母開頭的元素是變數，字串、數字或以小寫字母開頭的元素是常數。底線（_）被稱為匿名變數。
+表示事實：
+表示kate和bill是人（human），kate喜歡bill，而表示規則：
+表示對於兩個物件XY，如果X喜歡Y，且Y喜歡X，那麼他們是朋友。
+範例如下：
+快速排序範例（對list作排序）：
+
+下面簡潔的排序範例可以體會到為什麼AI領域喜用Prolog：
+
+示範羅素悖論在Prolog下會導致Stack Overflow：
+
